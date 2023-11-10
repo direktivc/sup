@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseLoginRegistrationActivity">
+
+    <Button
+        android:id="@+id/Registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registration"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="421dp"
+        style="?android:attr/buttonBarButtonStyle" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="522dp"
+        style="?android:attr/buttonBarButtonStyle" />
+
+
+
+</LinearLayout>

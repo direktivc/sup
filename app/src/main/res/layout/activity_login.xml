@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="271dp"
+        android:layout_height="93dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" /> <!-- Uporaba inputType za e-pošto -->
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="300dp"
+        android:layout_height="92dp"
+        android:hint="Password"
+        android:inputType="textPassword" /> <!-- Uporaba inputType za geslo -->
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:text="Login" /> <!-- Uporaba text za besedilo na gumbu -->
+
+</LinearLayout>
+
+
+
